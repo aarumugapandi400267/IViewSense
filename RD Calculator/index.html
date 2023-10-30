@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RD Calculator</title>
+    <link rel="stylesheet" href="styling/styling.css">
+</head>
+<body>
+<div class="container">
+    <h1>RD Calculator</h1><br>
+    <div class="calculation">
+       
+        <label for="principalAmount">Principal Amount (Initial Deposit):</label>
+        <input type="number" id="principalAmount" required>
+
+        <label for="monthlyContribution">Monthly Contribution:</label>
+        <input type="number" id="monthlyContribution" required>
+
+        <label for="annualInterestRate">Annual Interest Rate (%):</label>
+        <input type="number" id="annualInterestRate" required>
+
+        <label for="numberOfMonths">Number of Months (Tenure):</label>
+        <input type="number" id="numberOfMonths" required>
+
+        
+    </div><br>
+    <button onclick="calculateRD()">Calculate</button><br><br>
+    <div class="result"><br>The maturity amount of your RD is...<div class="out">[Click Calculate to See Your RD]</div></div>
+</div>
+<script src="dynamic/dynamic.js"></script>
+</body>
+</html>
