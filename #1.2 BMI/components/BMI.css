@@ -1,0 +1,39 @@
+.body{
+    background-color: rgb(131, 131, 131);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4em;
+    padding: 2em;
+    margin: 2em;
+    border-radius: 2em;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+body{
+    align-items: center;
+    text-align: center;
+}
+input{
+    width: 15em;
+    height: 2em;
+    border-radius: 1em;
+    border-top: none;
+    border-left: none;
+}
+button{
+    width: 7em;
+    height: 1.6em;
+    border-radius: 0.79em;
+    border: none;
+    font-size: large;
+    transition: background-color 500ms;
+    transition: color 500ms;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: background-color 500ms;
+    transition: color 500ms;
+}
