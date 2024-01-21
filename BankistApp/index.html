@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bankist</title>
+    <link rel="stylesheet" href="components/styling.css">
+</head>
+<body>
+    <header>
+        <h1>Bankist</h1>
+    </header>
+    <main>
+        <div id="login-section">
+            <h2>Login</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <br>
+            <button onclick="login()">Login</button>
+        </div>
+
+        <div id="account-section" style="display: none;">
+            <h2>Welcome, <span id="username-display"></span>!</h2>
+            <h3>Your Account Balance: $<span id="balance">1000</span></h3>
+            <button onclick="deposit()">Deposit</button>
+            <button onclick="withdraw()">Withdraw</button>
+            <button onclick="logout()">Logout</button>
+        </div>
+
+        <div id="error-message" style="color: red; display: none;">Insufficient funds!</div>
+    </main>
+
+    <script src="components/dynamic.js">
+        
+    </script>
+</body>
+</html>
