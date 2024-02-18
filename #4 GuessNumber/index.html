@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="components/styling.css">
+</head>
+<body>
+    <header>
+        <h1>Guess the Number</h1>
+    </header>
+    <main>
+        <div id="game-section">
+            <h2>Guess a Number between 1 and 100:</h2>
+            <input type="number" id="user-guess" placeholder="Enter your guess" required>
+            <br>
+            <button onclick="checkGuess()">Check Guess</button>
+            <br>
+            <div id="result-message"></div>
+        </div>
+    </main>
+
+    <script src="components/dynamic.js"></script>
+</body>
+</html>
